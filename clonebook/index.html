@@ -11,9 +11,17 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
+    <nav>
+        <div class="nav-left">
+            <img src="img/clonebook.png" >
+        </div>
+        <div class="nav-right">
+            <button class="new_account">give only 1lakh Dollar</button>
+        </div>
+    </nav>
     <div class="form">
         <div>
-             <img src="img/logoclone.png" class="logoclone">
+             <img src="img/clonebook.png " class="logoclone">
         </div>
                 <div class="container">
                 <div class="row">
@@ -26,10 +34,10 @@
                                 <form accept-charset="UTF-8" role="form" action="connection/login_check.php" method="post">
                                 <fieldset>
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="username" name="username" type="text">
+                                        <input class="form-control" placeholder="username" name="username" type="text" required>
                                     </div>
                                     <div class="form-group">
-                                        <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                                        <input class="form-control" placeholder="Password" name="password" type="password" value="" required>
                                     </div>
                                     <!-- <div class="checkbox">
                                         <label>
@@ -41,7 +49,7 @@
                                 </form>
                                 <hr/>
                                 <center><h4>OR</h4></center>
-                                <input class="btn btn-lg btn-facebook btn-block" type="submit" value="Create account">
+                                <input class="btn btn-lg btn-facebook btn-block" type="submit" value="Creat account">
                             </div>
                         </div>
                     </div>
